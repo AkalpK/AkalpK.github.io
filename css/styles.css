@@ -1,3 +1,44 @@
-h1 {
-    font-family: "Calibri";
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50em;
+    background-color: rgb(245, 245, 245);
+}
+
+.banner {
+    white-space: nowrap;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+.post {
+
+}
+
+.post-title {
+    background-color: #A34343;
+    font-family: "Century Gothic";
+    font-weight: 700;
+    padding-left: .5em;
+    color: white;
+}
+
+.post-body {
+    font-family: 'Georgia';
+    padding: 1em;
+}
+
+.star {
+    max-width: .2em;
+    margin: .2em .25em;
+}
+
+.nav {
+    text-align: center;
+    font-family: 'Century Gothic';
+    font-size: .8em;
+    transform: scale(1, .9);
+    margin: 0;
 }
